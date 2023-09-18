@@ -1,0 +1,27 @@
+.news_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 4rem;
+  margin: 0 auto;
+  height: auto;
+}
+.card_title {
+  color: #324291;
+}
+@media (max-width: 1200px) {
+  .news_area {
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .news_area {
+    // padding: 0;
+    flex-direction: column;
+    height: 100%;
+  }
+}

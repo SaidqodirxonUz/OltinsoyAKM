@@ -1,0 +1,22 @@
+news 
+
+-id 
+-image # 1 dona
+-title 
+-description
+
+
+books
+
+-id 
+-image
+-title
+-description
+-file
+
+
+user
+login editAdmin
+
+contacts
+-bot

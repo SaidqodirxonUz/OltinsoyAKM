@@ -1,0 +1,32 @@
+.outer {
+  // padding: 10px;
+  overflow-y: hidden;
+  width: 80vw;
+  height: 35rem;
+  overflow-x: hidden; /* Yangi qo'shildi */
+}
+.flex-container {
+  overflow-x: auto;
+  height: calc(100% + 17px);
+  padding-bottom: 17px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  flex: 1 0 500px;
+  height: 20rem;
+  display: inline-block;
+  // gap: 1rem;
+}
+.card_title {
+  color: #324291;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 0 100%;
+  }
+}
