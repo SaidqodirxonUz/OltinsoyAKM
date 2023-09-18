@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./footer.scss";
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
       <ul>
         <li>
           <p style={{ textAlign: "center" }}>
-            ©️ Oltinsoy tuman Axborot-kutubxona markazi
+            ©️ Oltinsoy tuman Bo'ston shaxarchasi Amur Temur ko'chasi 8 uy
           </p>
         </li>
       </ul>

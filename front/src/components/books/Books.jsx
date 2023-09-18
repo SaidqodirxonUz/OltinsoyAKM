@@ -122,7 +122,7 @@ const Books = () => {
                         <Typography
                           variant="body2"
                           color="text.secondary"
-                          className=""
+                          className="tex_description"
                         >
                           {TextComponent({
                             text: item.description,

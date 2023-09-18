@@ -117,7 +117,7 @@ const Blog = () => {
                           image={item.image_url}
                           alt="news img"
                         />
-                        <div className="flex flex-row justify-start items-center px-6">
+                        <div className="flex flex-row justify-start items-center pl-6">
                           <TbCalendarEvent />
                           <CardHeader
                             className=""
@@ -130,7 +130,7 @@ const Blog = () => {
                         <CardContent>
                           <Typography
                             gutterBottom
-                            className="card_title"
+                            className="news_title"
                             variant="h6"
                             component="p"
                           >
@@ -139,14 +139,16 @@ const Blog = () => {
                           <Typography
                             variant="body2"
                             color="text.secondary"
-                            className=""
+                            className="news_description"
                           >
                             {TextComponent({
                               text: item.description,
                               maxLength: 100,
                             })}
                           </Typography>
+
                           <Link
+                            className="news_more"
                             to={`/news/${item.id}`}
                             style={{ color: "blue" }}
                           >

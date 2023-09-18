@@ -74,13 +74,13 @@ const Navbar = () => {
             <Box>
               <Link
                 className="text-neutral-950 active:text-blue-500 flex flex-row"
-                to="tel:+998909107504"
+                to="tel:+998915164132"
               >
                 <BiSolidPhoneCall
                   className="text-3xl text-black"
                   style={{ marginRight: "0.5rem" }}
                 />
-                +998 71 230-00-50
+                +998 91 516 41 32
               </Link>
             </Box>
 

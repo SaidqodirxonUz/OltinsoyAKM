@@ -24,12 +24,15 @@
 .card_title {
   color: #324291;
 }
+.tex_description {
+  max-height: 5.5rem;
+  min-height: 5.3rem;
+}
 
 .downLinkDiv {
   background: blue;
   color: white;
   border-radius: 20px;
-  margin-top: 1.1rem;
 
   .downLink {
     padding: 0.5rem;

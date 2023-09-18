@@ -21,8 +21,22 @@
   display: inline-block;
   margin: 5px;
 }
-.card_title {
+.news_title {
   color: #324291;
+  max-height: 1rem;
+  min-height: 4rem;
+  margin-top: -2rem !important;
+  // background: #000;
+}
+.news_description {
+  max-height: 3rem;
+  min-height: 3.8rem;
+  // background: #0f0;
+}
+.news_more {
+  // background: #00f;
+  max-height: 1.5rem;
+  min-height: 1rem;
 }
 
 @media (max-width: 768px) {

@@ -19,15 +19,7 @@ const Footer = () => {
             <div className="col-md-4 ">
               <ul className="list-inline quicklinks">
                 <li>
-                  <h6 className=" mt-4">
-                    <Link
-                      to={"https://t.me/SaidqodirxonRahimov"}
-                      target="_blank"
-                      style={{ textDecoration: "none" }}
-                    >
-                      Saidqodirxon Rahimov
-                    </Link>
-                  </h6>
+                  <h6 className=" mt-4">Oltinsoy AKM</h6>
                 </li>
               </ul>
             </div>
