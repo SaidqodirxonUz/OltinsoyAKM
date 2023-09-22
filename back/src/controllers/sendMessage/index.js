@@ -1,7 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 const chatIds = [
   1551855614 /* @Real_Coder */, 5004302592 /* Samandar bro */,
-  150590941 /*@OltinsoyAKM_Baxodir*/,
+  // 150590941 /*@OltinsoyAKM_Baxodir*/,
 ];
 
 const bot = new TelegramBot("5863998254:AAFQaZ7gzVl7sZ_gZjek4YnOaq0h48f24sI", {
