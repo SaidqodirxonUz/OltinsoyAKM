@@ -94,7 +94,7 @@ const Navbar = () => {
                 }}
                 to={"/contact"}
               >
-                Boglanish
+                Bogʻlanish
               </Link>
             </Box>
 

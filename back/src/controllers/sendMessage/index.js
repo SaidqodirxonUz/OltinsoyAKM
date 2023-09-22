@@ -4,12 +4,9 @@ const chatIds = [
   150590941 /*@OltinsoyAKM_Baxodir*/,
 ];
 
-const bot = new TelegramBot(
-  process.env.BOT_TOKEN || "5863998254:AAFQaZ7gzVl7sZ_gZjek4YnOaq0h48f24sI",
-  {
-    polling: false,
-  }
-);
+const bot = new TelegramBot("5863998254:AAFQaZ7gzVl7sZ_gZjek4YnOaq0h48f24sI", {
+  polling: false,
+});
 
 const FormSendMessage = async (req, res) => {
   let { name, phone, message } = req.body;

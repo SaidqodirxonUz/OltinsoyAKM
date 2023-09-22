@@ -131,7 +131,12 @@ const Books = () => {
                         </Typography>
                       </CardContent>
                       <div className="downLinkDiv">
-                        <a href={item.file} className="downLink">
+                        <a
+                          href={item.file}
+                          target="_blank"
+                          className="downLink"
+                          rel="noreferrer"
+                        >
                           Yuklash
                         </a>
                       </div>
