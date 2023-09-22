@@ -226,7 +226,10 @@ const ContactMe = () => {
                       });
                     }
                     if (error.request.status == 403) {
-                      toast("Xabar yuborishda xatolik", { type: "info" });
+                      toast(
+                        "Xabar yuborishda xatolik , Ism va Xabar text shaklida telefon raqam sonlardan iborat bo'lsin ",
+                        { type: "info" }
+                      );
                     }
                   });
               }}
